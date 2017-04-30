@@ -1,10 +1,699 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+
+	<!--- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Kuo Pei-Yu | Front-End Developer</title>
+	<meta name="description" content="">
+	<meta name="author" content="Kuo Pei-Yu">
+	<meta name="google-site-verification" content="P26ExpAynw_1lVVmozrf8yVKlwyl-FULwwaUyLw0Lq0" />
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Script
+	================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-65032041-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
-	Hello world
+
+	<!-- Header
+	================================================== -->
+	<header id="home">
+
+	<nav id="nav-wrap">
+
+		<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+		<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+		<ul id="nav" class="nav">
+			<li class="current"><a class="smoothscroll" href="#home">Top</a></li>
+			<li><a class="smoothscroll" href="#about">About</a></li>
+			<li><a class="smoothscroll" href="#resume">Resume</a></li>
+			<li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+		</ul> <!-- end #nav -->
+
+	</nav> <!-- end #nav-wrap -->
+
+	<div class="row banner">
+		<div class="banner-text">
+			<h1 class="responsive-headline">Kuo Pei-Yu</h1>
+			<h3>More than Just a <span>Front-End Web Developer</span>. <a class="smoothscroll" href="#about"></a></h3>
+			<!-- <hr />
+			<ul class="social">
+				<li><a href="https://www.facebook.com/kuoabu" title="Kuo-Abu@Facebbok" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://github.com/huskpurin" title="huskpurin@GitHub" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://instagram.com/huskpurin/" title="huskpurin@Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="http://a-buk.logdown.com/" title="huskpurin@Logdown" target="_blank"><i class="fa fa-rss"></i></a></li>
+			</ul> -->
+		</div>
+	</div>
+
+	<p class="scrolldown">
+		<a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+	</p>
+
+	</header> <!-- Header End -->
+
+	<!-- About Section
+	================================================== -->
+	<section id="about">
+
+	<div class="row">
+
+		<div class="three columns">
+			<div class="profile-pic">
+				<!-- <img src="images/profilepic.jpg" alt="" /> -->
+			</div>
+		</div>
+
+		<div class="nine columns main-col">
+
+			<h2>About Me</h2>
+
+			<p>
+			   因90年代的電子報啟蒙、00年代接觸網頁解謎，引發對網頁設計的興趣，在神奇寶貝大師、皇家魔法師的夢想相繼破滅後，便立志成為程式設計師。造成大學時期像瘋子一樣，聞<em>資訊</em>就往裡頭鑽。<br/>
+			   興趣是喇賽、喝茶、游泳，常宅在家看看電影、日本動漫、逛批踢踢。閒暇時也喜歡看展和旅行。
+			</p>
+
+			<div class="row">
+
+				<div class="columns contact-details">
+					<h2>Contact Me</h2>
+					<p class="address">
+						<span>Kuo Pei-Yu (郭珮瑜)</span><br>
+						<span>+886-928-542-799</span><br>
+						<span>huskpurin@gmail.com</span>
+					</p>
+				</div>
+
+				<div class="columns download">
+					<p>
+						<a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+					</p>
+				</div>
+
+			</div> <!-- end row -->
+
+		</div> <!-- end .main-col -->
+
+	</div>
+
+	</section> <!-- About Section End-->
+
+
+	<!-- Resume Section
+	================================================== -->
+	<section id="resume">
+
+		<!-- Skills
+		----------------------------------------------- -->
+		<div class="row skills">
+
+			<div class="three columns header-col">
+				<h1><span>Skills</span></h1>
+			</div>
+			 
+			<div class="nine columns main-col">
+
+				<div class="row item" id="skill-f2d">
+
+					<div class="twelve columns">
+
+						<h3>Web Front-End</h3>
+						<ul class="text-list">
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Sass</li>
+							<li>OOCSS</li>
+							<li>BEM</li>
+							<li>Boostrap</li>
+							<li>Javascript</li>
+							<li>jQuery</li>
+							<li>ReactJS</li>
+							<li>Redux</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item" id="skill-b2e">
+
+					<div class="twelve columns">
+
+						<h3>Web Back-End</h3>
+						<ul class="text-list">
+							<li>PHP</li>
+							<li>MySQL</li>
+							<li>Laravel 5</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item" id="skill-server">
+
+					<div class="twelve columns">
+
+						<h3>Operating Systems and Server</h3>
+						<ul class="text-list">
+							<li>Mac OS X</li>
+							<li>Windows 7/XP</li>
+							<li>Ubuntu</li>
+						</ul>
+						<ul class="text-list">
+							<li>Nginx</li>
+							<li>Apache</li>
+							<li>coServ</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item" id="skill-tool">
+
+					<div class="twelve columns">
+
+						<h3>Tools</h3>
+						<ul class="text-list">
+							<li>Git</li>
+							<li>Sublime Text 3</li>
+							<li>Balsamiq</li>
+							<li>Photoshop</li>
+							<li>Illustrator</li>
+							<li>Sketch</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item" id="skill-others">
+
+					<div class="twelve columns">
+
+						<h3>Others</h3>
+						<p>Android App Development (via Java, Android SDK, SQLite)</p>
+						<p>Kinect Game (via C#, Kinect SDK, XNA Framework)</p>
+
+					</div>
+
+				</div> <!-- item end -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End Skills -->
+
+
+		<!-- Work
+		----------------------------------------------- -->
+		<div class="row experience">
+
+			<div class="three columns header-col">
+				<h1><span>Work Experience</span></h1>
+			</div>
+			<div class="nine columns main-col">
+
+				<div class="row item" id="exp-work-itf">
+
+					<div class="twelve columns">
+
+						<h3>Tianditu 天地圖股份有限公司</h3>
+						<p class="info">Front-End Developer <span>&bull;</span> Jul 2015 - present</p>
+
+						<p>
+							 Tianditu's main brand, <em>Itaifeng</em> (itaifeng.com), is an online travel agency assisting people with enjoying their Taiwan vacations. I Collaborated with project manager, product manager, and back-end developers to design and develop responsive web applications.
+						</p>
+						<ul class="disc content">
+							<li><a class="internet-modal" href="#modal-08">RabbiJet</a> — Built the online prototype management system for hoteliers, features Booking Calendar, Channel Manager and Smart Lock, by using ReactJS, Sass.</li>
+							<li>ITaifng — Maintained and developed sub-sites of itaifen.com, including <em>ezBuy</em> and <em>Taiwan High Speed Rail Discount Ticketing System</em>, by using jQuery, Sass.</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item" id="exp-work-mytreat">
+
+					<div class="twelve columns">
+
+						<h3>myTreat 北京驿栈科技有限公司</h3>
+						<p class="info">Front-End Developer <span>&bull;</span> Dec 2014 - Jun 2015</p>
+
+						<p>
+							 A startup company to build online-to-offline service to change the way of gift giving. I joined myTreat when I was a senior student at university.
+						</p>
+						<ul class="disc content">
+							<li>Responsible for developing <a class="internet-modal" href="#modal-01">myTreat landing page</a> and <a class="internet-modal" href="#modal-02">Nuan-Nuan WeChat public platform</a> by using jQuery, Sass, Laravel, Weixin SDK. </li>
+							<li>Trained in modern workflow including prototyping, version control via Git, MVC architectural via Laravel and knowledge including OAuth 2 and connection to online payment API.</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item" id="exp-work-cccm">
+
+					<div class="twelve columns">
+
+						<h3>Computer Center of College of Management NSYSU</h3>
+						<p class="info">Internship <span>&bull;</span> Mar 2011 - Dec 2013</p>
+						<ul class="disc content">
+							<li>Maintained the equipment and machinery, such as computers and network, of the classrooms of the College of Management.</li>  
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End Work -->
+
+		<!-- Leadership
+		----------------------------------------------- -->
+		<div class="row experience">
+
+			<div class="three columns header-col">
+				<h1><span>Leadership Experience</span></h1>
+			</div>
+			<div class="nine columns main-col">
+
+				<div class="row item" id="exp-wpdc">
+
+					<div class="twelve columns">
+
+						<h3>Web Program & Design Club</h3>
+						<p class="info">President <span>&bull;</span> Sep 2014 - Jun 2015</p>
+
+						<p>A club for learning about web development in National Sun Yen-Sen University.</p>
+						<ul class="disc content">
+							<li>Trained and assisted members in not only basic web development skills but also designing and developing website projects. Lectured on HTML/CSS and tutorials.</li>
+							<li>Arranged internship program for members with professors' and alumnus' support.</li>
+							<li>Collaborated with <em>Computer Center of College of Management NSYSU</em> to initiate <a href="https://www.facebook.com/groups/802547693093468/" target="_blank">NSYSU Open Source Club</a>, holding five meetings in six months.</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+				<div class="row item" id="exp-misweek">
+
+					<div class="twelve columns">
+
+						<h3>24th Annual Information Management System Week</h3>
+						<p class="info">Director of Document and Art Designing <span>&bull;</span>  Sep 2011 - Dec 2011</p>
+						<ul class="disc content">
+							<li>Organized the team to planed online promotion, and designed and developed the event webside.</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End Leadership -->
+
+		<!-- Education
+		----------------------------------------------- -->
+		<div class="row education">
+
+			<div class="three columns header-col">
+				<h1><span>Education</span></h1>
+			</div>
+
+			<div class="nine columns main-col">
+
+				<div class="row item" id="edu-nsysu">
+
+					<div class="twelve columns">
+
+						<h3>National Sun Yen-Sen University</h3>
+						<p class="info">B.B.A. in Information Management <span>&bull;</span> Jun 2015</p>
+
+						<ul class="disc content">
+							<li>Served as the <strong>president</strong> of 3rd Web Program and Design Club.</li>
+							<li>Served as the <strong>network dormitory manager</strong> more than three years.</li>
+							<li>Attend the <strong>exchange programme</strong> of the College of Business at City University of Hong Kong in Sstrongester B 2013/14.</li>
+							<li>Won the <strong>College Student Research Scholarship of National Science Council in Taiwan</strong> for my graduation project, <a class="internet-modal" href="#modal-06" title="WorldKinection">WorldKinection</a>.</li>
+						</ul>
+
+					</div>
+
+				</div> <!-- item end -->
+
+			</div> <!-- main-col end -->
+
+		</div> <!-- End Education -->
+
+	</section> <!-- Resume Section End-->
+
+
+	<!-- Portfolio Section
+	================================================== -->
+	<section id="portfolio">
+
+		<div class="row">
+
+			<div class="twelve columns collapsed">
+
+			<h1>Portfolio</h1>
+				<!-- portfolio-wrapper -->
+				<div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+				   
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-08">
+								<img alt="" src="images/portfolio/rabbijet-2.png">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+									<h5>RabbiJet</h5>
+									<p>Web Development</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-01">
+								<img alt="" src="images/portfolio/myTreat.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>myTreat</h5>
+									<p>Web Development</p>
+										</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-02">
+								<img alt="" src="images/portfolio/wx.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Nuan-Nuan</h5>
+									<p>Web Development</p>
+										</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-03">
+								<img alt="" src="images/portfolio/xcellent.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+										<h5>Xcellent</h5>
+									<p>Web Development</p>
+										</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-05">
+								<img alt="" src="images/portfolio/fly.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+									<h5>想飛</h5>
+									<p>Documentary Film</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+					<div class="columns portfolio-item">
+						<div class="item-wrap">
+
+							<a href="#modal-06">
+								<img alt="" src="images/portfolio/WorldKinection-screenshot.jpg">
+								<div class="overlay">
+									<div class="portfolio-item-meta">
+									<h5>WorldKinection</h5>
+									<p>Kinect Game</p>
+									</div>
+								</div>
+								<div class="link-icon"><i class="icon-plus"></i></div>
+							</a>
+
+						</div>
+					</div> <!-- item end -->
+
+				</div> <!-- portfolio-wrapper end -->
+
+			</div> <!-- twelve columns end -->
+
+
+			<!-- Modal Popup
+			  --------------------------------------------------------------- -->
+
+			<div id="modal-01" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-myTreat.jpg" alt="screenshot of myTreat website" />
+
+				<div class="description-box">
+					<h4>myTreat</h4>
+					<p>myTreat is a startup company to build online-to-offline service to change the way of gift giving. In the other hand, it is also a talented team with great passion, engaging in optimizing user experience. Landing page is my first task in myTreat. </p>
+					<p>I was responsible for developing the presentation-layer of the website. The key point of the landing page was how to controll animations and transitions with CSS3 and JavaScript to come up to designers' expectations.</p>
+					<p>Developing beautiful and friendly user interface is the best experience for me.</p>
+					<a href="http://www.mytreat.cc/en/" target="_blank">www.mytreat.cc</a>
+					<span class="categories"><i class="fa fa-tag"></i>myTreat, 北京驿栈科技有限公司, HTML, CSS, Javascript, Laravel </span>
+				</div>
+
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div><!-- modal-01 End -->
+
+			<div id="modal-02" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-wx.png" alt="screenshot of Nuan-Nuan WeChat public platform" />
+
+				<div class="description-box">
+					<h4>Nuan-Nuan WeChat public platform 暖暖微信公眾號</h4>
+					<p>To develop market in China, myTreat built the application and developed the service which was called Nuan-Nuan (暖暖) on WeChat public platform.</p>
+					<p>I was responsible for building both the fornt-side gift order system for customers, and back-side management system for express couriers, including the userflow, api connection with WeChat and online payment services, etc.</p>
+					<p></p>
+					<a href="http://www.nuannuanapp.com/" title="Nuan-Nuan Landing Page" target="_blank">WeChat Public ID : nuannuanapp</a>
+					<span class="categories"><i class="fa fa-tag"></i>myTreat, 北京驿栈科技有限公司, WeChat, Weixin SDK, WeChat Payment</span>
+				</div>
+
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div><!-- modal-02 End -->
+
+			<div id="modal-03" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-xcellent.jpg" alt="screenshot of Xcellent website" />
+
+				<div class="description-box">
+					<h4>Xcellent</h4>
+					<p>Xcellent was one of the pieceworks I got from COIMOTION in my fourth year at university. I developed Xcellent e-commerce website, including front-side and back-side system, via coServ web server (node.js) and coimotion API, which were provided by COIMOTION.</p>
+					<!-- <a href="http://xcellenttest.skinapi.com/" target="_blank">Demo網站</a> -->
+					<a href="http://www.xcellent.com.tw/" target="_blank">xcellent.com</a>
+					<span class="categories"><i class="fa fa-tag"></i>Coimotion API, coServ, node.js</span>
+				</div>
+
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div> <!-- modal-03 End -->
+
+			<div id="modal-04" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-ggininder.jpg" alt="screenshot of GGININDER App" />
+
+				<div class="description-box">
+					<h4>GGININDER</h4>
+					<p>It is a shopping list system for fan convention attendee, features book list, address book, and share on facebook, etc. I developed the android application with my classmates on Object-Oriented Programming course. I was responsible for database building and system integration.</p>
+					<span class="categories"><i class="fa fa-tag"></i>JAVA, Android SDK, SQLite</span>
+				</div>
+				
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div><!-- modal-04 End -->
+			 
+			<div id="modal-05" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/fly.jpg" alt="screenshot of 想飛" />
+
+				<div class="description-box">
+					<h4>Documentary Film - 想飛</h4>
+					<p hidden>與系上四位同學共同製作。故事以剛畢業的學姊為主角，看台灣填鴨教育制度底下的孩子在夢想和現實之間的掙扎。主角因為家裡反對，放棄了放棄前往美國和法國音樂學校進修的機會，在家鄉的一間補習班任職，日復一日的單調工作漸漸澆熄對生命的熱情。</p>
+					<p hidden>在網路多媒體創意設計課程老師的指導下，歷經半年時間完成。從主題構思、田野調查、與人物的互動，到拍攝、影片後製、呈現，每個環節無不是耗費大量心力。拍攝紀錄片不只是對學分負責，同時也影響了被攝者的人生，在鏡頭下被迫正視自己的感情。謝謝組員們、老師、被攝者，一同喜怒哀樂、一齊煩惱掙扎，以想飛紀念之。</p>
+					<p>A 15 minutes documentary film.</p>
+					<span class="categories"><i class="fa fa-tag"></i>Documentary Film, Adobe Premiere</span>
+				</div>
+
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div><!-- modal-05 End -->
+
+			<div id="modal-06" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-WorldKinection.jpg" alt="screenshot of WorldKinection" />
+
+				<div class="description-box">
+					<h4>WorldKinection</h4>
+					<p>For the graduation project, we designed and developed a motion-controlled game, WorldKinection, to learn foreign cultures, by using C#, Kinect and XNA framework to researche human–computer interaction.</p>
+					<p>We were </p>
+					<p>And also won the College Student Research Scholarship of National Science Council in Taiwan.</p>
+
+					<a href="https://www.youtube.com/watch?v=w8IWH8Wn9gQ" target="_blank">Demo Video</a>, <a href="https://www.dropbox.com/s/gchps5t3yzvijf8/%E5%A4%A7%E5%B0%88%E5%AD%B8%E7%94%9F%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A-%E7%AF%80%E9%8C%84.docx?dl=0" target="_blank">Proposal(partly)</a>
+					<span class="categories"><i class="fa fa-tag"></i>C#, Kinect SDK, XNA Framework</span>
+				</div>
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div><!-- modal-06 End -->
+
+			<div id="modal-07" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-2011-misweek.jpg" alt="screenshot of 2011 misweek website" />
+
+				<div class="description-box">
+					<h4>24th Annual Information Management System Week</h4>
+					<p hidden>大學期間第一件作品。2011年冬天擔任第二十四屆資管週美宣長，建置了當屆的活動官方網站，從美術設計、素材製作、到網頁建置一手包辦。技術生澀但充滿回憶。</p>
+					<a href="http://misweek.mis.nsysu.edu.tw/2011/" target="_blank">Website</a>
+					<span class="categories"><i class="fa fa-tag"></i>HTML, CSS, Javascript, Adobe Photoshop</span>
+				</div>
+
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div><!-- modal-07 End -->
+
+			<div id="modal-08" class="popup-modal mfp-hide">
+
+				<img class="scale-with-grid" src="images/portfolio/modals/m-rabbijet.png" alt="screenshot of RabbiJet website" />
+
+				<div class="description-box">
+					<h4>RebbiJet 睿傑控房系統</h4>
+					<p>RebbiJet is a online prototype management system for hoteliers, features Booking Calendar, Channel Manager and Smart Lock, etc. We are devoted to creating a revolution in hotel and travel chain.</p>
+					<p>This is the biggest system I have ever been responsible for alone.</p>
+					<p>My duty is to design and develop the presentation-layer and front-end architecture of the website. It is a challeng for me to controll so many events and data in the same time between users and server. So I developed the system by using ReactJS and Redux, and thinking in React's one-way data flow. On the part of css, I used Sass to develop responsive design website and to be more adaptive to the changes.</p>
+
+					<a href="http://rabbijet.com/" target="_blank">rabbijet.com</a>
+					<span class="categories"><i class="fa fa-tag"></i>ReactJs, Redux, Sass</span>
+				</div>
+
+				<div class="link-box">
+					<a class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div><!-- modal-08 End -->
+
+		</div> <!-- row End -->
+
+	</section> <!-- Portfolio Section End-->
+   
+	<!-- footer
+	================================================== -->
+	<footer>
+
+	<div class="row">
+
+		<div class="twelve columns">
+
+			<ul class="social-links">
+				<li><a href="https://www.facebook.com/kuoabu" title="Kuo-Abu@Facebbok" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://github.com/huskpurin" title="huskpurin@GitHub" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://instagram.com/huskpurin/" title="huskpurin@Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="http://a-buk.logdown.com/" title="huskpurin@Logdown" target="_blank"><i class="fa fa-rss"></i></a></li>
+			</ul>
+
+			<ul class="copyright">
+				<li>&copy; Copyright 2014 CeeVee</li>
+				<li>Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank">Styleshout</a></li>
+				<li>Thanks <a href="https://github.com/gaga5lala/" target="_blank">gaga5lala</a></li>
+			</ul>
+
+		</div>
+
+		<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+	</div>
+
+	</footer> <!-- Footer End-->
+
+	<!-- Java Script
+	================================================== -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   
+	<script src="js/jquery.scrolldepth.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/waypoints.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/magnific-popup.js"></script>
+	<script src="js/init.js"></script>
+
 </body>
+
 </html>
